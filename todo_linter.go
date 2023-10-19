@@ -1,4 +1,4 @@
-package todo_comment_linter
+package todo_linter
 
 import (
 	"errors"
@@ -12,11 +12,11 @@ import (
 	"golang.org/x/tools/go/ast/inspector"
 )
 
-const doc = "todo_comment_linter is ..."
+const doc = "todo_linter is ..."
 
 // Analyzer is ...
 var Analyzer = &analysis.Analyzer{
-	Name: "todo_comment_linter",
+	Name: "todo_linter",
 	Doc:  doc,
 	Run:  run,
 	Requires: []*analysis.Analyzer{

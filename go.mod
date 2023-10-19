@@ -1,4 +1,4 @@
-module github.com/mrymam/todo_comment_linter
+module github.com/mrymam/todo_linter
 
 go 1.21
 
